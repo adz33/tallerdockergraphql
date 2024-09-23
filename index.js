@@ -29,6 +29,7 @@ const resolvers = {
         return `¡Hola, ${message}! Un saludo por parte de Daniel Arias `;
     },
     helloJeanPalomino: (_, { message }) => {
+      
         return `¡Hola, ${message}! Un saludo por parte de Jean Palomino `;
     },
   },
