@@ -13,8 +13,6 @@ const HELLO_QUERY = gql`
   }
 `;
 
-
-
 function Hello() {
   const [message, setMessage] = useState('');
   const [getGreeting, { loading, error, data }] = useLazyQuery(HELLO_QUERY);
