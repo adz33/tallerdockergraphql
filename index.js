@@ -11,6 +11,8 @@ const typeDefs = gql`
     helloDanielArias(message: String!): String
     helloJeanPalomino(message: String!): String
     helloMargaritaGrisales(message: String!): String
+    helloLesliMartinez(message: String!): String
+
   }
 `;
 
@@ -38,6 +40,10 @@ const resolvers = {
       return `¡Hola, ${message}! Un saludo por parte de Margarita Grisales `;
   },
   },
+    helloLesliMartinez: (_, { message }) => {
+      
+    return `¡Hola, ${message}! Un saludo por parte de Lesli Martinez `;
+},
 
 };
 
