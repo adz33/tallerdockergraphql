@@ -44,16 +44,17 @@ const resolvers = {
       
     return `¡Hola, ${message}! Un saludo por parte de Leon Dominguez `;
 },
-  },
-    helloLesliMartinez: (_, { message }) => {
+helloLesliMartinez: (_, { message }) => {
       
-    return `¡Hola, ${message}! Un saludo por parte de Lesli Martinez `;
+  return `¡Hola, ${message}! Un saludo por parte de Lesli Martinez `;
 },
 
 helloZairaNaviaa: (_, { message }) => {
       
   return `¡Hola, ${message}! Un saludo por parte de Zaira Navia `;
 },
+  },
+    
 };
 
 async function startApolloServer() {
