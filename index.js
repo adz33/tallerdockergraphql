@@ -13,7 +13,7 @@ const typeDefs = gql`
     helloMargaritaGrisales(message: String!): String
     helloLesliMartinez(message: String!): String
     helloLeonD(message: String!): String
-    helloZairaNavia(message: String!): String
+    helloZairaNaviaa(message: String!): String
   }
 `;
 
@@ -50,7 +50,7 @@ const resolvers = {
     return `¡Hola, ${message}! Un saludo por parte de Lesli Martinez `;
 },
 
-helloZairaNavia: (_, { message }) => {
+helloZairaNaviaa: (_, { message }) => {
       
   return `¡Hola, ${message}! Un saludo por parte de Zaira Navia `;
 },
